@@ -1,0 +1,5 @@
+PyTorch version： 2.1.1
+CUDA version: 12.1
+python version: 3.9.18 
+numpy
+torchsummary
