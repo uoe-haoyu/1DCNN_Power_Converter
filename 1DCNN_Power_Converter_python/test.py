@@ -23,7 +23,7 @@ class Test:
 
     def start(self):
         print("Loading .......   path:{}".format(self.pth))
-        self.net.load_state_dict(torch.load(self.pth)['model'])
+        self.net.load_state_dict(torch.load(self.pth, map_location=torch.device('cpu'))['model'])
         self.net.to(self.device)
         test_normstatic=1
         self.val_step(test_normstatic,self.pth[-5],self.val_dataloader)
