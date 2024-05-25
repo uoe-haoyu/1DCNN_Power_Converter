@@ -26,9 +26,6 @@ class Net(nn.Module):
         self.fc_out = nn.Sequential(
             nn.Linear(72, 32),
             nn.ReLU(),
-            # nn.Dropout(0.2),
-            # nn.Linear(64, 32),
-            # nn.ReLU(),
             nn.Linear(32, 6),
             nn.Sigmoid()
         )
