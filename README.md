@@ -4,9 +4,4 @@ Data can be downloaded from: https://drive.google.com/file/d/1N81hJhjcXHoR2jpg8O
 
 Run test_noload.py to predict the switch state.
 
-Env:
-PyTorch version：2.1.1;
-CUDA version: 12.1;
-Python version: 3.9.18
-
 
