@@ -5,3 +5,6 @@ Data can be downloaded from: https://drive.google.com/file/d/1N81hJhjcXHoR2jpg8O
 Run test_noload.py to predict the switch state.
 
 
+"Long-Horizon FCS-MPC Trained 1-D Convolution Neural Networks for FPGA-Based Power-Electronic Converter Control With a Si/SiC Hybrid Converter Case Study", published in IEEE Transactions on Industrial Electronics
+
+
